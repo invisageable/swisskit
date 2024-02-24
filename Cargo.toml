@@ -1,0 +1,20 @@
+[package]
+name = "swisskit"
+edition = "2021"
+version = "0.0.0"
+description = "..."
+exclude = [".todo.md", "notes"]
+readme = "README.md"
+
+[lib]
+name = "swisskit"
+path = "crates/swisskit/lib.rs"
+
+[dependencies]
+swisskit-core = { path = "crates/swisskit-core", version = "0.0.0" }
+
+[workspace]
+members = ["crates/swisskit-core", "crates/swisskit-dsa"]
+
+[workspace.dependencies]
+hashbrown = "0.14.3"

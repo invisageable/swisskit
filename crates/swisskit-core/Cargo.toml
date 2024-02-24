@@ -1,0 +1,8 @@
+[package]
+name = "swisskit-core"
+edition = "2021"
+
+[dependencies]
+swisskit-dsa = { path = "../swisskit-dsa", version = "0.0.0" }
+
+hashbrown.workspace = true

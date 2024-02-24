@@ -1,0 +1,9 @@
+[package]
+name = "swisskit-dsa"
+edition = "2021"
+
+[dependencies]
+hashbrown.workspace = true
+
+[[example]]
+name = "queue"
