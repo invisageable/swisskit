@@ -1,6 +1,10 @@
 [package]
 name = "swisskit-core"
+description = "..."
 edition = "2021"
+license.workspace = true
+repository.workspace = true
+version = "0.0.0"
 
 [dependencies]
 swisskit-dsa = { path = "../swisskit-dsa", version = "0.0.0" }

@@ -1,9 +1,10 @@
 [package]
 name = "swisskit-dsa"
+description = "..."
 edition = "2021"
+license.workspace = true
+repository.workspace = true
+version = "0.0.0"
 
 [dependencies]
 hashbrown.workspace = true
-
-[[example]]
-name = "queue"

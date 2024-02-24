@@ -18,3 +18,7 @@ members = ["crates/swisskit-core", "crates/swisskit-dsa"]
 
 [workspace.dependencies]
 hashbrown = "0.14.3"
+
+[workspace.package]
+license = "APACHE — MIT"
+repository = "https://github.com/invisageable/swisskit"
